@@ -3,6 +3,7 @@
 namespace JoinPlugin; //Every plugin will have this. Its usally "namespace pluginname;"
 
 use pocketmine\event\player\PlayerJoinEvent; //This plugin will use JoinEvent so it can know when a player joins a game.
+use pocketmine\plugin\PluginBase; //Required for every main class
 
 class Main extends PluginBase implements Listener{ //Every plugin will have this line of code
     public function onEnable(){ //This says " When the server started, what should I do?"
